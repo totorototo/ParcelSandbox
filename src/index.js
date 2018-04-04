@@ -4,11 +4,9 @@ import { add } from "./add.rs";
 
 import "./index.css";
 
-console.log(add(2, 3));
-
 const App = () => (
   <div className="App">
-    <h1 className="App-Title">Hello Parcel x React</h1>
+    <h1 className="App-Title">{add(2, 3)}</h1>
   </div>
 );
 
